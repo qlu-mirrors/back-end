@@ -1,7 +1,8 @@
 # 镜像管理器的配置文件（manager.conf）
 以2022/10/25的`manager.conf`内容为例: \
-debug = true #输出调试日志
 ```
+debug = true #输出调试日志
+
 [server]
 addr = "127.0.0.1" #本机localhost
 port = 12345 #manager-worker通讯接口
